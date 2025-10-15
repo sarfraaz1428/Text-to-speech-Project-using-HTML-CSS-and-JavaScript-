@@ -1,0 +1,79 @@
+.hero{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
+.hero h1{
+    font-size: 6vh;
+    color: rgb(63, 103, 104);
+}
+.hero h1 span{
+    color: rgb(168, 168, 168);
+}
+textarea{
+    height: 350px;
+     width: 700px;
+     font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(67, 67, 112);
+    border: 0;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 30px;
+    color: chartreuse;
+
+}
+textarea::placeholder{
+    color: azure;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+button{
+    color: rgb(230, 127, 127);
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(196, 237, 163);
+    padding-left: 10px 30px ;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    
+
+}
+img{
+    height: 20px;
+    width: auto;
+}
+select{
+    flex: 1;
+    background-color: burlywood;
+    height: 50px;
+    padding: 0px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    background-image: url(dropdown.webp);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x:calc(100%-20%);
+    background-position-y:20%;
+    background-position: right;
+
+    appearance: none;
+}
